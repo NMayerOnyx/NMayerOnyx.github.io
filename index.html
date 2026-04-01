@@ -7,6 +7,8 @@
     <title>Portfolio - Mayer Nicolas</title>
 </head>
 <body>
+
+    <!-- ===== HEADER ===== -->
     <header>
         <div class="header-content">
             <img class="logo" src="images/logo.png" alt="Logo" />
@@ -16,8 +18,9 @@
         <nav>
             <ul class="nav-list">
                 <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="https://drive.google.com/file/d/1WsIXH5OrF9mBXFXC7Y3rAKsmTeefK0tG/view?usp=sharing">CV</a></li>
+                <li><a href="#dev">Dev &amp; Logiciel</a></li>
+                <li><a href="#musique">Musique</a></li>
+                <li><a href="https://drive.google.com/file/d/1WsIXH5OrF9mBXFXC7Y3rAKsmTeefK0tG/view?usp=sharing" target="_blank">CV</a></li>
                 <li><a href="https://github.com/NMayerOnyx" target="_blank">Github</a></li>
             </ul>
         </nav>
@@ -28,77 +31,249 @@
     </header>
 
     <main>
-        <!-- About Section -->
-        <section id="accueil">
-            <h1>À propos :</h1>
-            <h2>Jeune développeur animé par la motivation et la passion pour le développement et la création.</h2>
+
+        <!-- ===== À PROPOS ===== -->
+        <section id="accueil" class="section-about">
+            <h1>À propos</h1>
             <div class="about-content">
-                <img class="sidepic" src="images/placeholder.png" alt="Placeholder Image" />
-                <p class="par1">
-                    Intéressé par la programmation depuis plusieurs années et actuellement en première année de Bachelor Développement Informatique SMART, je suis un stagiaire de formation dont l'appétit d'apprentissage est des plus insatiables. Entre projets personnels, études et explorations de nombreux domaines du monde informatique et créatif, je possède un éventail d'expériences diverses. De la programmation en C, au GDScript, ainsi que des compétences de design visuel et de composition musicale sous FL Studio.
-                </p>
+                <!-- TODO: Remplacez placeholder.png par votre photo -->
+                <img class="sidepic" src="images/placeholder.png" alt="Photo de profil" />
+                <div class="about-text">
+                    <!-- TODO: Remplacez ce sous-titre par votre accroche personnelle -->
+                    <h2>Jeune développeur animé par la motivation et la passion pour le développement et la création.</h2>
+                    <!-- TODO: Remplacez ce paragraphe par votre biographie -->
+                    <p>
+                        Intéressé par la programmation depuis plusieurs années et actuellement en première année de Bachelor
+                        Développement Informatique SMART, je suis un stagiaire de formation dont l'appétit d'apprentissage
+                        est des plus insatiables. Entre projets personnels, études et explorations de nombreux domaines du
+                        monde informatique et créatif, je possède un éventail d'expériences diverses.
+                    </p>
+                </div>
             </div>
-            <p class="par2">
-                PYTHON - C - GDSCRIPT - HTML5 - CSS3 - BOOTSTRAP - JAVASCRIPT - PHOTOSHOP - FL STUDIO 24 - PREMIERE PRO
-            </p>
+
+            <!-- TODO: Ajoutez / retirez des tags selon vos compétences -->
+            <div class="skills-bar">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">C</span>
+                <span class="skill-tag">GDScript</span>
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">Bootstrap</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Photoshop</span>
+                <span class="skill-tag">FL Studio 24</span>
+                <span class="skill-tag">Premiere Pro</span>
+            </div>
         </section>
 
-        <!-- Capacities Section -->
-        <section id="capacites">
-            <h1>Mes Capacités :</h1>
+        <!-- ============================================================ -->
+        <!--         PARTIE 1 — DÉVELOPPEMENT WEB & LOGICIEL              -->
+        <!-- ============================================================ -->
+        <section id="dev" class="section-part">
+            <div class="part-header dev-header">
+                <span class="part-icon">&lt;/&gt;</span>
+                <h1>Développement Web &amp; Logiciel</h1>
+                <!-- TODO: Remplacez ce texte par votre description de cette partie -->
+                <p class="part-subtitle">[Décrivez ici votre parcours en développement — formations, motivations, objectifs]</p>
+            </div>
+
+            <!-- — Compétences — -->
+            <h2 class="subsection-title">Compétences</h2>
             <div class="capacities-grid">
-                <div class="capacity-card">
+
+                <div class="capacity-card dev-card">
+                    <div class="card-icon">&#127760;</div>
                     <h3>Développement Web</h3>
-                    <p>Création de sites web modernes et réactifs en utilisant HTML5, CSS3, JavaScript et Bootstrap. Apprentissage dans la conception d'interfaces utilisateur intuitives et esthétiques. Etudes.</p>
+                    <!-- TODO: Personnalisez cette description -->
+                    <p>HTML5, CSS3, JavaScript, Bootstrap. Création d'interfaces modernes et réactives.</p>
                 </div>
-                <div class="capacity-card">
-                    <h3>Développement Python</h3>
-                    <p>Développement d'applications et de scripts en Python, avec un apprentissage dans l'automatisation, l'analyse de données et la création d'outils. Etudes.</p>
+
+                <div class="capacity-card dev-card">
+                    <div class="card-icon">&#128013;</div>
+                    <h3>Python</h3>
+                    <!-- TODO: Personnalisez cette description -->
+                    <p>Scripts, automatisation, analyse de données, outils en ligne de commande.</p>
                 </div>
-                <div class="capacity-card">
-                    <h3>Développement GDScript</h3>
-                    <p>Création de jeux vidéo avec le moteur Godot, en utilisant GDScript pour des mécaniques de jeu et des systèmes interactifs. Exploration.</p>
+
+                <div class="capacity-card dev-card">
+                    <div class="card-icon">&#9881;</div>
+                    <h3>C</h3>
+                    <!-- TODO: Personnalisez cette description -->
+                    <p>Programmation système, structures de données, algorithmes fondamentaux.</p>
                 </div>
-                <div class="capacity-card">
-                    <h3>Développement C</h3>
-                    <p>Programmation système et développement de logiciels en C, avec une compréhension des structures de données et des algorithmes. Débutant.</p>
+
+                <div class="capacity-card dev-card">
+                    <div class="card-icon">&#127918;</div>
+                    <h3>GDScript / Godot</h3>
+                    <!-- TODO: Personnalisez cette description -->
+                    <p>Développement de jeux vidéo avec Godot 4, mécaniques et systèmes interactifs.</p>
                 </div>
-                <div class="capacity-card">
-                    <h3>Composition Musicale</h3>
-                    <p>Composition musicale sous FL Studio 24, création de bandes sonores pour des jeux vidéo et des projets multimédias. Hobby.</p>
+
+                <!-- TODO: Dupliquez cette carte pour ajouter une compétence -->
+                <div class="capacity-card dev-card placeholder-card">
+                    <div class="card-icon">&#43;</div>
+                    <h3>[Compétence à ajouter]</h3>
+                    <p>[Description de la compétence, niveau, contexte d'utilisation.]</p>
+                </div>
+
+            </div>
+
+            <!-- — Projets dev — -->
+            <h2 class="subsection-title">Projets</h2>
+            <div class="projects-grid">
+
+                <div class="project-card dev-project">
+                    <div class="project-header">
+                        <!-- TODO: Renommez le projet si besoin -->
+                        <h3>Projets Python — Études</h3>
+                        <span class="project-tag dev-tag">Python</span>
+                    </div>
+                    <!-- TODO: Enrichissez cette description -->
+                    <p>Projets réalisés dans le cadre de ma formation à Metz Numeric School, disponibles sur GitHub avec commits montrant l'évolution de ma progression.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/NMayerOnyx/ExoPiscine" target="_blank">Gestionnaire de Nages</a>
+                        <a href="https://github.com/NMayerOnyx/Exo_Python_Doublon" target="_blank">Détecteur de doublons</a>
+                        <!-- TODO: Ajoutez d'autres liens de projets -->
+                    </div>
+                </div>
+
+                <div class="project-card dev-project">
+                    <div class="project-header">
+                        <!-- TODO: Renommez le projet si besoin -->
+                        <h3>Platformer — Godot 4</h3>
+                        <span class="project-tag dev-tag">GDScript</span>
+                    </div>
+                    <!-- TODO: Enrichissez cette description -->
+                    <p>Exploration des mécaniques de nodes sur Godot 4. Objectif : produire un jeu de plateformes complet avec tous les éléments fondamentaux du genre.</p>
+                    <div class="project-links">
+                        <!-- TODO: Ajoutez un lien GitHub, itch.io ou démo -->
+                        <span class="placeholder-link">[Lien GitHub / démo à ajouter]</span>
+                    </div>
+                </div>
+
+                <!-- TODO: Dupliquez ce bloc pour ajouter un projet dev -->
+                <div class="project-card dev-project placeholder-card">
+                    <div class="project-header">
+                        <h3>[Nom du projet]</h3>
+                        <span class="project-tag dev-tag">[Technologie]</span>
+                    </div>
+                    <p>[Description du projet — ce que vous avez réalisé, les défis relevés, les technologies utilisées.]</p>
+                    <div class="project-links">
+                        <span class="placeholder-link">[Lien à ajouter]</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ============================================================ -->
+        <!--         PARTIE 2 — COMPOSITION MUSICALE (FL STUDIO)          -->
+        <!-- ============================================================ -->
+        <section id="musique" class="section-part">
+            <div class="part-header music-header">
+                <span class="part-icon">&#9835;</span>
+                <h1>Composition Musicale</h1>
+                <!-- TODO: Remplacez ce texte par votre description de cette partie -->
+                <p class="part-subtitle">[Décrivez ici votre parcours musical — influences, style, approche créative sous FL Studio]</p>
+            </div>
+
+            <!-- — Outils & approche — -->
+            <h2 class="subsection-title">Outils &amp; Approche</h2>
+            <div class="capacities-grid">
+
+                <div class="capacity-card music-card">
+                    <div class="card-icon">&#127929;</div>
+                    <h3>FL Studio 24</h3>
+                    <!-- TODO: Personnalisez cette description -->
+                    <p>DAW principal pour la composition, le séquençage, le mixage et la production musicale.</p>
+                </div>
+
+                <div class="capacity-card music-card">
+                    <div class="card-icon">&#127908;</div>
+                    <h3>Style Musical</h3>
+                    <!-- TODO: Décrivez votre style, vos genres, vos influences -->
+                    <p>[Décrivez vos influences, genres travaillés, approche harmonique et mélodique.]</p>
+                </div>
+
+                <div class="capacity-card music-card">
+                    <div class="card-icon">&#127911;</div>
+                    <h3>Mixage &amp; Mastering</h3>
+                    <!-- TODO: Décrivez vos compétences en mixage -->
+                    <p>[Décrivez vos compétences : EQ, compression, effets, chaîne de mastering.]</p>
+                </div>
+
+                <!-- TODO: Dupliquez cette carte pour ajouter un outil ou une compétence musicale -->
+                <div class="capacity-card music-card placeholder-card">
+                    <div class="card-icon">&#43;</div>
+                    <h3>[Compétence à ajouter]</h3>
+                    <p>[Description — instruments, plugins, techniques, etc.]</p>
+                </div>
+
+            </div>
+
+            <!-- — Projets musicaux — -->
+            <h2 class="subsection-title">Projets</h2>
+            <div class="projects-grid">
+
+                <div class="project-card music-project">
+                    <div class="project-header">
+                        <h3>The Binding of Isaac : Metathesiophobia OST</h3>
+                        <span class="project-tag music-tag">OST</span>
+                    </div>
+                    <!-- TODO: Enrichissez cette description -->
+                    <p>Composition d'une bande son complète remplaçant l'OST de The Binding of Isaac: Repentance. Style variable, mise en valeur des mélodies et des surcouches dynamiques offertes par le jeu.</p>
+                    <div class="project-links">
+                        <a href="https://www.youtube.com/channel/UCjtZUpGpTJtA1c_OjePkBEA" target="_blank">Chaîne YouTube</a>
+                        <a href="https://www.youtube.com/watch?v=PpdgIA0LyJs" target="_blank">Trailer</a>
+                        <a href="https://www.youtube.com/playlist?list=PLbBUqEo_nRcBwraIPPaK4i9tZQTmQ4xNg" target="_blank">Playlist OST</a>
+                        <a href="https://onyx-nicolasmayer.bandcamp.com" target="_blank">Bandcamp</a>
+                    </div>
+                </div>
+
+                <!-- TODO: Dupliquez ce bloc pour ajouter un projet musical -->
+                <div class="project-card music-project placeholder-card">
+                    <div class="project-header">
+                        <h3>[Nom du projet musical]</h3>
+                        <span class="project-tag music-tag">[Genre / Type]</span>
+                    </div>
+                    <p>[Description du projet — contexte, style, instruments, objectifs artistiques.]</p>
+                    <div class="project-links">
+                        <span class="placeholder-link">[SoundCloud / YouTube / Bandcamp]</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- — Embeds audio / vidéo — -->
+            <h2 class="subsection-title">Écouter</h2>
+            <div class="music-embeds">
+                <!-- TODO: Remplacez ces blocs par vos vrais embeds YouTube / Bandcamp / SoundCloud -->
+                <!-- Exemple YouTube : <iframe width="100%" height="315" src="https://www.youtube.com/embed/VOTRE_ID" frameborder="0" allowfullscreen></iframe> -->
+                <div class="embed-placeholder">
+                    <p>[Collez ici un embed YouTube, Bandcamp ou SoundCloud]</p>
+                    <code>&lt;iframe src="..." &gt;&lt;/iframe&gt;</code>
+                </div>
+                <div class="embed-placeholder">
+                    <p>[Deuxième embed optionnel]</p>
+                    <code>&lt;iframe src="..." &gt;&lt;/iframe&gt;</code>
                 </div>
             </div>
         </section>
 
-        <!-- Projects Section -->
-        <section id="projets">
-            <h1>Projets :</h1>
-            <div class="project-card">
-                <h2>Projets d'études Python</h2>
-                <p class="parn">
-                    Des projets dans le cadre de mon apprentissage chez Metz Numeric School, tous dispo sur Github et visibles, commits présentant l'évolution et le progrès fait durant ma formation.
-                    <a href="https://github.com/NMayerOnyx/ExoPiscine">Gestionnaire de Nages - Piscine</a>   -   
-                    <a href="https://github.com/NMayerOnyx/Exo_Python_Doublon">Détécteur de fichiers doublons dans un ou plusieurs répertoires.</a>
-                </p>
-            </div>
-            <div class="project-card">
-                <h2>Projet Godot de platformer.</h2>
-                <p class="parn">
-                    Un projet d'exploration des mécaniques et concepts de nodes sur Godot 4, avec comme objectif de produire un jeu simple de plateforme avec tous les éléments basiques que cela incombe.
-                </p>
-            </div>
-            <div class="project-card">
-                <h2>The Binding Of Isaac : Metathesiophobia OST</h2>
-                <p class="parn">
-                    Projet de composition d'une bande son complète pour remplacer la bande son de The Binding Of Isaac: Repentance. Style variable, mise en valeur des mélodies et surcouches dynamiques offertes par le jeu.
-                       <a href="https://www.youtube.com/channel/UCjtZUpGpTJtA1c_OjePkBEA">Chaine Youtube</a>  -  <a href="https://www.youtube.com/watch?v=PpdgIA0LyJs">Trailer</a>  -  <a href="https://www.youtube.com/playlist?list=PLbBUqEo_nRcBwraIPPaK4i9tZQTmQ4xNg">Playlist de l'OST</a>  -  <a href="https://onyx-nicolasmayer.bandcamp.com">Lien Bandcamp</a>
-                </p>
-            </div>
-        </section>
     </main>
 
+    <!-- ===== FOOTER ===== -->
     <footer>
-        <p>&copy; 2023 Mayer Nicolas. Tous droits réservés.</p>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://github.com/NMayerOnyx" target="_blank">GitHub</a>
+                <!-- TODO: Ajoutez vos autres réseaux (LinkedIn, email, etc.) -->
+                <!-- <a href="https://linkedin.com/in/VOTRE_PROFIL" target="_blank">LinkedIn</a> -->
+                <!-- <a href="mailto:VOTRE@EMAIL.COM">Email</a> -->
+            </div>
+            <p class="footer-copy">&copy; 2025 Mayer Nicolas. Tous droits réservés.</p>
+        </div>
     </footer>
+
 </body>
 </html>
