@@ -8,7 +8,6 @@
 </head>
 <body>
 
-    <!-- ===== HEADER ===== -->
     <header>
         <div class="header-content">
             <img class="logo" src="images/logo.png" alt="Logo" />
@@ -32,16 +31,12 @@
 
     <main>
 
-        <!-- ===== À PROPOS ===== -->
         <section id="accueil" class="section-about">
             <h1>À propos</h1>
             <div class="about-content">
-                <!-- TODO: Remplacez placeholder.png par votre photo -->
-                <img class="sidepic" src="images/placeholder.png" alt="Photo de profil" />
+                <img class="sidepic" src="images/facepic.png" alt="Photo de profil" />
                 <div class="about-text">
-                    <!-- TODO: Remplacez ce sous-titre par votre accroche personnelle -->
                     <h2>Jeune développeur animé par la motivation et la passion pour le développement et la création.</h2>
-                    <!-- TODO: Remplacez ce paragraphe par votre biographie -->
                     <p>
                         Intéressé par la programmation depuis plusieurs années et actuellement en première année de Bachelor
                         Développement Informatique SMART, je suis un stagiaire de formation dont l'appétit d'apprentissage
@@ -51,7 +46,6 @@
                 </div>
             </div>
 
-            <!-- TODO: Ajoutez / retirez des tags selon vos compétences -->
             <div class="skills-bar">
                 <span class="skill-tag">Python</span>
                 <span class="skill-tag">C</span>
@@ -66,9 +60,6 @@
             </div>
         </section>
 
-        <!-- ============================================================ -->
-        <!--         PARTIE 1 — DÉVELOPPEMENT WEB & LOGICIEL              -->
-        <!-- ============================================================ -->
         <section id="dev" class="section-part">
             <div class="part-header dev-header">
                 <span class="part-icon">&lt;/&gt;</span>
@@ -139,15 +130,54 @@
 
                 <div class="project-card dev-project">
                     <div class="project-header">
-                        <!-- TODO: Renommez le projet si besoin -->
-                        <h3>Platformer — Godot 4</h3>
-                        <span class="project-tag dev-tag">GDScript</span>
+                        <h3>Gestionnaire de Stock</h3>
+                        <span class="project-tag dev-tag">Équipe · Chef de projet</span>
                     </div>
-                    <!-- TODO: Enrichissez cette description -->
-                    <p>Exploration des mécaniques de nodes sur Godot 4. Objectif : produire un jeu de plateformes complet avec tous les éléments fondamentaux du genre.</p>
+                    <p>Application full-stack de gestion de stock développée en équipe dans le cadre de la formation. Interface utilisateur en React, backend via une API REST Java. Rôle de chef de projet : coordination de l'équipe, découpage des tâches, suivi de l'avancement et cohérence technique entre le front et le back.</p>
+                    <div class="project-tags-row">
+                        <span class="mini-tag">React</span>
+                        <span class="mini-tag">Java</span>
+                        <span class="mini-tag">API REST</span>
+                        <span class="mini-tag">Gestion de projet</span>
+                    </div>
                     <div class="project-links">
-                        <!-- TODO: Ajoutez un lien GitHub, itch.io ou démo -->
-                        <span class="placeholder-link">[Lien GitHub / démo à ajouter]</span>
+                        <!-- TODO: Ajoutez un lien GitHub si disponible -->
+                        <span class="placeholder-link">[Lien GitHub à ajouter]</span>
+                    </div>
+                </div>
+
+                <div class="project-card dev-project">
+                    <div class="project-header">
+                        <h3>Backend — Gestion de Documents Qualité</h3>
+                        <span class="project-tag dev-tag">Stage / Mission</span>
+                    </div>
+                    <p>Développement du backend d'une application de gestion de documents qualité pour un grossiste pharmaceutique. Conception et implémentation des fonctionnalités côté serveur : structuration des données, gestion des accès, et exposition des services à l'interface cliente.</p>
+                    <div class="project-tags-row">
+                        <span class="mini-tag">Java</span>
+                        <span class="mini-tag">Backend</span>
+                        <span class="mini-tag">Pharmaceutique</span>
+                        <span class="mini-tag">Qualité</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- TODO: Ajoutez un lien si le projet est public -->
+                        <span class="placeholder-link">[Lien à ajouter]</span>
+                    </div>
+                </div>
+
+                <div class="project-card dev-project">
+                    <div class="project-header">
+                        <h3>API Java — Quiz Meubles IKEA</h3>
+                        <span class="project-tag dev-tag">Java · API</span>
+                    </div>
+                    <p>Conception et développement d'un système d'API Java pour alimenter une application de questionnaires portant sur les meubles IKEA. Mise en place des endpoints, gestion des données de questions/réponses, et intégration avec la couche applicative cliente.</p>
+                    <div class="project-tags-row">
+                        <span class="mini-tag">Java</span>
+                        <span class="mini-tag">API REST</span>
+                        <span class="mini-tag">Questionnaire</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- TODO: Ajoutez un lien si le projet est public -->
+                        <span class="placeholder-link">[Lien à ajouter]</span>
                     </div>
                 </div>
 
@@ -227,6 +257,60 @@
                         <a href="https://www.youtube.com/watch?v=PpdgIA0LyJs" target="_blank">Trailer</a>
                         <a href="https://www.youtube.com/playlist?list=PLbBUqEo_nRcBwraIPPaK4i9tZQTmQ4xNg" target="_blank">Playlist OST</a>
                         <a href="https://onyx-nicolasmayer.bandcamp.com" target="_blank">Bandcamp</a>
+                    </div>
+                </div>
+
+                <div class="project-card music-project">
+                    <div class="project-header">
+                        <h3>Terraria : Satellite Tunes</h3>
+                        <span class="project-tag music-tag">OST Mod</span>
+                    </div>
+                    <p>
+                        Remplacement complet de la bande son de Terraria à travers un mod musical. Un regard personnel sur le jeu,
+                        ses biomes et ses boss — pas une recréation fidèle, mais une réinterprétation originale, peut-être
+                        controversée, ancrée dans mon propre style. Chaque piste cherche à capturer l'essence d'un lieu ou d'un
+                        affrontement à travers un mélange de synthétiseurs, d'électronique et d'instruments d'orchestre de tous
+                        types — cordes, cuivres, percussions, chœurs.
+                    </p>
+                    <div class="project-tags-row">
+                        <span class="mini-tag">Synthèse</span>
+                        <span class="mini-tag">Électronique</span>
+                        <span class="mini-tag">Orchestral</span>
+                        <span class="mini-tag">Mod</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- TODO: Ajoutez vos liens quand le projet sera publié -->
+                        <span class="placeholder-link">[Lien à venir]</span>
+                    </div>
+                </div>
+
+                <div class="project-card music-project">
+                    <div class="project-header">
+                        <h3>As Above So Below — OST</h3>
+                        <span class="project-tag music-tag">OST Originale</span>
+                    </div>
+                    <p>
+                        Bande son originale d'un metroidvania personnel inspiré de Hollow Knight, dans un univers Cyberpunk
+                        mêlé d'Art Déco et de machinerie divine. Le jeu explore deux mondes opposés : le <em>Above</em>,
+                        le monde tangible de la ville titanesque de Smaragda — une cité cyberpunk stratifiée où réside le
+                        Corps — et le <em>Below</em>, un monde non-euclidien et liminal habité par les Âmes, façonné par les
+                        souvenirs et de plus en plus chaotique selon la profondeur, abritant la ville de Tabul.
+                        L'Esprit fait le lien entre les deux, guidant l'être d'un monde à l'autre.
+                    </p>
+                    <p class="project-lore">
+                        Une histoire de dieux, du monde qu'ils ont construit au fil du temps, et d'une terre qui n'avait
+                        peut-être pas besoin d'eux.
+                    </p>
+                    <div class="project-tags-row">
+                        <span class="mini-tag">Metroidvania</span>
+                        <span class="mini-tag">Cyberpunk</span>
+                        <span class="mini-tag">Art Déco</span>
+                        <span class="mini-tag">Orchestral</span>
+                        <span class="mini-tag">Ambient</span>
+                    </div>
+                    <div class="project-links">
+                        <!-- TODO: Ajoutez vos liens quand le projet sera publié -->
+                        <span class="placeholder-link">[Lien à venir]</span>
                     </div>
                 </div>
 
